@@ -1,0 +1,29 @@
+.bgvideo {
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgvideo video {
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.videotext {
+    z-index: 2;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #00a8ff, #ffffff);
+    -webkit-background-clip: text; /* Для поддержки веб-кит браузерами */
+    color: transparent; /* Делаем текст прозрачным */
+}

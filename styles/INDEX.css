@@ -1,0 +1,24 @@
+.brand-photos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.brand-photo {
+    text-align: center;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand-photo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.brand-photo p {
+    margin: 10px 0 0;
+}

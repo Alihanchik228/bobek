@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+
+body {
+    overflow-x: hidden;
+    font-family: Poppins, serif;
+    background-color: #fafafa;;
+}
+.navbar-brand img {
+    width: 42px;
+}
+
+.nav-link {
+    color: #fafafa;
+}
+
+.sidebar>p {
+    background-color: rgb(13, 110, 253);
+    color: #fafafa;
+    border-style: 100px solid;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+.booga-gaga {
+    color: #fafafa;
+}
+
+footer {
+    border-top: 0.2em solid
+}
+
+.footer-text {
+    padding-top: 1em;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    padding-top: 1.5em;
+}
+
+.footer-icons a {
+    margin-inline: 1em;
+}
+
+.footer-icons img {
+    width: 35px;
+    /* Дополнительные стили для изображений, если необходимо */
+}
+
+.magazin {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.brendi {
+    text-align: center;
+    margin-top: 20px;
+}
